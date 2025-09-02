@@ -1,0 +1,40 @@
+body {
+  font-family: 'Outfit', sans-serif; /* La fuente del reto */
+  background-color: hsl(212, 45%, 89%); /* gris azulado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ocupar toda la pantalla */
+}
+
+/* Tarjeta principal */
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 16px;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen QR */
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Título */
+.card h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%); /* azul oscuro */
+  margin-bottom: 16px;
+}
+
+/* Texto */
+.card p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%); /* gris azulado */
+  line-height: 1.4;
+}
